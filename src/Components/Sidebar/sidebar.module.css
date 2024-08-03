@@ -1,0 +1,11 @@
+.container{
+    width: 60px;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.icons{
+    color: white;
+}
