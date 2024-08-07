@@ -11,7 +11,7 @@ const Sidebar = () => {
         <div className={style.container}>
             <div>
                 <Stack direction="column" spacing={4}>
-                    <HomeIcon  className={style.icons}/>
+                    <HomeIcon  className={style.iconsSelected}/>
                     <AssessmentIcon className={style.icons} />
                     <EventNoteIcon className={style.icons} />
                     <AccountBalanceWalletIcon className={style.icons} />
@@ -19,7 +19,7 @@ const Sidebar = () => {
             </div>
             <div>
                 <Stack direction="column" spacing={4} className={style.bottomButton}>
-                    <LogoutIcon  className={style.icons}/>
+                    <LogoutIcon  className={style.iconsSelected}/>
                 </Stack>
             </div>
         </div>

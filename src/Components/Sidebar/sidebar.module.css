@@ -9,6 +9,9 @@
     padding: 10px 0;
 }
 .icons{
+    color: grey;
+}
+.iconsSelected{
     color: white;
 }
 .bottomButton{

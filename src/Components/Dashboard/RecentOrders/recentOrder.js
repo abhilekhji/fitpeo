@@ -45,7 +45,7 @@ const RecentOrder = () => {
                     </TableCell>
                     <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">{row.order}</TableCell>
                     <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">{row.amount}</TableCell>
-                    <TableCell sx={{ color: 'white' }} className={style.tableDataStatus}><div className={row.status==='Delivered'?style.statusGreen:style.statusRed}>{row.status}</div></TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableDataStatus} align="center"><div className={row.status==='Delivered'?style.statusGreen:style.statusRed}>{row.status}</div></TableCell>
                     </TableRow>
                 ))}
                 </TableBody>
