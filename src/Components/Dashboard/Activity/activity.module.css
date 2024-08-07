@@ -1,0 +1,21 @@
+.activityContainer{
+    background-color: black;
+    border-radius: 10px;
+    height: 380px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.activityContainerTextContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activityContainerTextContainerDropdown{
+    background-color: grey;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

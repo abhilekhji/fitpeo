@@ -1,0 +1,38 @@
+.optionsContainer{
+    background-color: black;
+    border-radius: 10px;
+    height: 380px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.optionsContainerItems{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.optionsContainerItemsFirstContainer{
+    display: flex;
+    align-items: center;
+}
+.optionsContainerItemsIcon{
+    background-color: blue;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;    
+}
+.optionsContainerItemsRightIcon{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}

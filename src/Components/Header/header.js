@@ -25,7 +25,12 @@ const Header = () => {
     )
     return (
         <div className={style.container}>
-            <div>{renderSearchInput()}</div>
+            <div className={style.searchInput}>{renderSearchInput()}</div>
+            <div>
+                <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
+                    <SearchIcon className={style.searchIcon}/>
+                </IconButton>
+            </div>
             <div>
                 <Stack direction="row" spacing={2}>
                     <Avatar><MailOutlineIcon /></Avatar>

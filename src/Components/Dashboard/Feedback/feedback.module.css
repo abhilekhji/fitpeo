@@ -1,0 +1,21 @@
+.feedbackContainer{
+    background-color: black;
+    border-radius: 10px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.nameAndImage{
+    display: flex;
+    align-items: center;
+}
+.activeStar{
+    color: #FFD700;
+}
+.inactiveStar{
+    color: white;
+}
+@media (min-width: 768px) {
+    .feedbackContainer{
+        height: 550px;
+    }
+}

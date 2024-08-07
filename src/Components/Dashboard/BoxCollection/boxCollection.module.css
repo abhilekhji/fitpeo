@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (min-width: 768px) {
+    .boxCollectionItem{
+        margin: auto;
+        /* height: 180px; */
+        height: 12rem;
+        width: 11rem;
+        background-color: black;
+        padding: 20px;
+        border: solid 2px grey;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 767px) {
+    .boxCollectionItem{
+        /* margin: auto; */
+        height: 12rem;
+        background-color: black;
+        border: solid 2px grey;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0 5px;
+        box-sizing: border-box;
+        /* display: flex; */
+    }
+}
+@media (max-width: 599px) {
+    .boxCollectionItem{
+        /* margin: auto; */
+        background-color: black;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0 5px;
+        box-sizing: border-box;
+        /* display: flex; */
+    }
+}
+
+.boxCollectionNumbers{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+.boxCollectionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxCollectionItemIcon1{
+    background-color: #6EACDA;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: #03346E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.boxCollectionItemIcon2{
+    background-color: #9BEC00;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: #059212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.boxCollectionItemIcon3{
+    background-color: #FFBF78;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: #FF7D29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.boxCollectionItemIcon4{
+    background-color: #FF5580;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: #C73659;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.boxCollectionItemIconValueContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+.boxCollectionItemIconValueContainerPercentageDown{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #C80036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCollectionItemIconValueContainerPercentageUp{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #06D001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
