@@ -25,13 +25,13 @@ const RecentOrder = () => {
         <div className={style.recentOrdersContainer}>
             <Typography variant="h4" gutterBottom>Recent Orders</Typography>
             <TableContainer component={Paper} className={style.table}>
-            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+            <Table sx={{ minWidth: 650, bgcolor: 'black', color: 'white' }} aria-label="simple table">
                 <TableHead>
                 <TableRow>
-                    <TableCell className={style.tableData}>Customer</TableCell>
-                    <TableCell className={style.tableData} align="right">Order No.</TableCell>
-                    <TableCell className={style.tableData} align="right">Amount</TableCell>
-                    <TableCell className={style.tableData} align="right">Status</TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableData}>Customer</TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">Order No.</TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">Amount</TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">Status</TableCell>
                 </TableRow>
                 </TableHead>
                 <TableBody>
@@ -40,12 +40,12 @@ const RecentOrder = () => {
                     key={row.customer}
                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                     >
-                    <TableCell className={style.tableData} component="th" scope="row">
+                    <TableCell sx={{ color: 'white' }} className={style.tableData} component="th" scope="row">
                         {row.customer}
                     </TableCell>
-                    <TableCell className={style.tableData} align="right">{row.order}</TableCell>
-                    <TableCell className={style.tableData} align="right">{row.amount}</TableCell>
-                    <TableCell className={style.tableDataStatus}><div className={row.status==='Delivered'?style.statusGreen:style.statusRed}>{row.status}</div></TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">{row.order}</TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableData} align="right">{row.amount}</TableCell>
+                    <TableCell sx={{ color: 'white' }} className={style.tableDataStatus}><div className={row.status==='Delivered'?style.statusGreen:style.statusRed}>{row.status}</div></TableCell>
                     </TableRow>
                 ))}
                 </TableBody>
