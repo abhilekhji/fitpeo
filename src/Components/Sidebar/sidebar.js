@@ -18,7 +18,7 @@ const Sidebar = () => {
                 </Stack>
             </div>
             <div>
-                <Stack direction="column" spacing={4}>
+                <Stack direction="column" spacing={4} className={style.bottomButton}>
                     <LogoutIcon  className={style.icons}/>
                 </Stack>
             </div>
