@@ -31,4 +31,7 @@
     .recentOrdersContainer{
         height: 550px;
     }
+    .scrollRight{
+        display: none;
+    }
 }

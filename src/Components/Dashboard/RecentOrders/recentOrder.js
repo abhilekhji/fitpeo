@@ -24,6 +24,7 @@ const RecentOrder = () => {
     return (
         <div className={style.recentOrdersContainer}>
             <Typography variant="h4" gutterBottom>Recent Orders</Typography>
+            <div className={style.scrollRight}>Scroll right</div>
             <TableContainer component={Paper} className={style.table}>
             <Table sx={{ minWidth: 650, bgcolor: 'black', color: 'white' }} aria-label="simple table">
                 <TableHead>

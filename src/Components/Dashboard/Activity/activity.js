@@ -12,6 +12,9 @@ const Activity = () => {
             { x: 20, avgTemp: 22.8, y: 15 },
             { x: 25, avgTemp: 14.5, y: 9 },
             { x: 30, avgTemp: 8.9, y: 6 },
+            { x: 35, avgTemp: 22.8, y: 15 },
+            { x: 40, avgTemp: 14.5, y: 9 },
+            { x: 45, avgTemp: 8.9, y: 6 },
         ],
         series: [{ type: 'bar', xKey: 'x', yKey: 'y' }],
         background: {
